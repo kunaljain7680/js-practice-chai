@@ -1,3 +1,1 @@
-"use strict"  // treat all js code as newer version of js
-
-alert("hello", 3+5);
+const anotherString=gameName.slice(-8,4);
