@@ -44,3 +44,46 @@ let st=String(vol);
 console.log(typeof st);
 
 console.log(vol);
+
+// operations
+
+let value=3;
+let negValue=-value;
+
+console.log(negValue);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2/3);
+console.log(2**3);  // this means 2^3
+console.log(2%3);
+
+let str1="hello"
+let str2=" kunal"
+console.log(str1-str2);  // gives NaN
+console.log(str1+str2);  // concatenate two strings
+
+console.log("1"+2);  // 12
+console.log(1+"2");  // 12
+console.log("1"+2+2); // 122
+
+console.log(1+2+"2"); // 32 as 1+2 is first added and then it is concatenated with 2
+
+console.log(+true);  // 1 as true is boolean ans usme incremtn hona h butincremnet is not there
+
+// console.log(true+);  // error
+
+console.log(+""); // 0  + likhne se converion ho jata h
+
+let num1,num2,num3
+
+num1=num2=num3=2+2
+
+let gameCounter=100
+
+gameCounter++;
+
+++gameCounter;
+
+console.log(gameCounter);
