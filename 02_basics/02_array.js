@@ -23,7 +23,11 @@ console.log(real_another_array);
 
 console.log(Array.isArray("Kunal"));  // check if kunal is array
 
+
+// Array.from() is used to create an array from an iterable object or array-like object, with each element of the array representing one item from the iterable.
+// Array.of() is used to create an array with the provided elements as its content, with each argument representing one element of the array.
 // covert into array
+
 console.log(Array.from("Kunal"));
 
 console.log(Array.of("Kunal"));  
